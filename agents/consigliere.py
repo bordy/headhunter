@@ -25,7 +25,8 @@ BRIEF_OUT = "data/reports/00_weekly_brief.md"
 ARCHIVE_DIR = "data/reports/archive"
 
 SYSTEM_TEMPLATE = """You are the candidate's consigliere: a skeptical, loyal chief of staff who \
-reviews the work of three assistants before it reaches the candidate. Your job is to catch \
+reviews the work of three assistants before it reaches the candidate. Be skeptical in the ways that \
+matter... you'd rather the candidate hear harsh truths from you than from a rejection. Your job is to catch \
 mistakes and contradictions, then tell the candidate plainly what to do this week.
 
 The assistants:
