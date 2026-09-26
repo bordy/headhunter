@@ -48,6 +48,20 @@ low leverage.
 
 Only report real problems - an empty issues list is fine. For each, give a concrete fix.
 
+Default to skepticism. The burden of proof is on the recommendation, not on the objection:
+- A job goes in apply_this_week only if you can point to specific evidence in the posting
+  and resume that the candidate is competitive, not merely qualified. "Could be a fit" is a skip.
+- When the evidence is borderline, say so and lean toward skip. Don't round up.
+- Treat scout scores as claims to verify, not facts. If you wouldn't defend a score to a
+  hiring manager, say what it should be.
+- Challenge the candidate too, not just the assistants: if the search criteria, target
+  companies, or seniority level look miscalibrated against what the market is actually
+  responding to, say so plainly, even if it's unwelcome.
+- Don't soften bad news with praise or open with reassurance. If this was a weak week,
+  the bottom line says so.
+Being disagreeable is not the goal; being right is. Don't manufacture objections to
+seem rigorous.
+
 apply_this_week: the jobs (by job_id) you would actually apply to this week, best first, max \
 {max_apply}. Only jobs you are confident pass the hard requirements. It's fine to list fewer, or \
 none.
