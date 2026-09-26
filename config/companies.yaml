@@ -1,0 +1,38 @@
+# Companies to search. board_type is one of: greenhouse, lever, ashby.
+# All tokens below were verified live against their public job-board APIs.
+# Find a new company's token from its careers page URL, e.g.:
+#   Greenhouse: https://boards.greenhouse.io/<token>            -> board_token: <token>
+#   Lever:      https://jobs.lever.co/<token>                   -> board_token: <token>
+#   Ashby:      https://jobs.ashbyhq.com/<token>                -> board_token: <token>
+companies:
+  # Fintech / finance-heavy - strong FP&A / strategic finance hiring
+  - {name: Stripe, board_type: greenhouse, board_token: stripe}
+  - {name: Brex, board_type: greenhouse, board_token: brex}
+  - {name: Coinbase, board_type: greenhouse, board_token: coinbase}
+  - {name: Robinhood, board_type: greenhouse, board_token: robinhood}
+  - {name: Gusto, board_type: greenhouse, board_token: gusto}
+  - {name: Carta, board_type: greenhouse, board_token: carta}
+  - {name: Mercury, board_type: greenhouse, board_token: mercury}
+  - {name: Ramp, board_type: ashby, board_token: ramp}
+
+  # EU-headquartered fintechs - relevant to relocation/sponsorship goal
+  - {name: Wise, board_type: greenhouse, board_token: wise}
+  - {name: N26, board_type: greenhouse, board_token: n26}
+
+  # Remote-friendly tech companies with sizeable finance/FP&A functions
+  - {name: Cloudflare, board_type: greenhouse, board_token: cloudflare}
+  - {name: Elastic, board_type: greenhouse, board_token: elastic}
+  - {name: Asana, board_type: greenhouse, board_token: asana}
+  - {name: Figma, board_type: greenhouse, board_token: figma}
+  - {name: Discord, board_type: greenhouse, board_token: discord}
+  - {name: Instacart, board_type: greenhouse, board_token: instacart}
+  - {name: Webflow, board_type: greenhouse, board_token: webflow}
+  - {name: Notion, board_type: ashby, board_token: notion}
+  - {name: Linear, board_type: ashby, board_token: linear}
+  - {name: Vanta, board_type: ashby, board_token: vanta}
+
+  # AI training/tutoring-heavy - relevant to the "AI tutoring" fallback
+  - {name: Mercor, board_type: ashby, board_token: mercor}
+  - {name: Turing, board_type: greenhouse, board_token: turing}
+  - {name: "Invisible Technologies", board_type: greenhouse, board_token: invisibletech}
+  - {name: "Scale AI", board_type: greenhouse, board_token: scaleai}

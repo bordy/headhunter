@@ -1,0 +1,4 @@
+# Jobs you've dealt with. Paste job_ids (from any report) here and they drop out
+# of scoring, tailoring, coaching, and the weekly brief from the next run on.
+applied: []
+not_interested: []

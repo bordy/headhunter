@@ -1,0 +1,38 @@
+# A job is kept if its title matches any of `titles` (substring, case-insensitive)
+# AND does not contain any of `exclude_keywords`.
+# `locations` is optional - left empty here because remote/EU-relocation fit is
+# judged by the skills_analysis agent instead (see config/candidate_requirements.yaml) -
+# a blunt substring filter on location would drop legitimate EU on-site-with-sponsorship
+# postings that don't say "Remote".
+titles:
+  - "FP&A"
+  - "Financial Planning"
+  - "Financial Analyst"
+  - "Financial Analysis"
+  - "Finance Manager"
+  - "Strategic Finance"
+  - "Finance and Equity"
+  - "Financial Modeling"
+  - "Revenue Analyst"
+  - "Business Finance"
+  - "AI Trainer"
+  - "AI Tutor"
+  - "Tutoring"
+  - "Subject Matter Expert"
+  - "Domain Expert"
+  - "AI Training"
+
+exclude_keywords:
+  - "Account Executive"
+  - "Business Development"
+  - "Accountant"
+  - "Accounting Manager"
+  - "Payroll"
+  - "Audit"
+  - "Controller"
+  - "Bookkeep"
+  - "Sales"
+  - "GTM"
+  - "Partnerships"
+
+locations: []

@@ -1,0 +1,30 @@
+# Model used for all Claude calls. claude-opus-5 gives the best analysis quality;
+# switch to claude-sonnet-5 for lower cost on large job batches.
+model: claude-opus-5
+
+# Path to your resume (Markdown), used by every agent after the job search.
+resume_path: data/C_Rohde_Resume_09022026.md
+
+# --- Scout ---
+# Jobs per Claude call during fit scoring (batching keeps API calls low).
+skills_analysis_batch_size: 8
+
+# --- Tailor ---
+# How many top-matching jobs get resume tailoring (and interview prep, if run).
+top_n_jobs: 5
+# Don't bother tailoring for jobs scoring below this.
+min_score_for_tailoring: 60
+# Also draft a cover letter per job.
+write_cover_letters: false
+
+# --- Coach ---
+# Only count skill gaps from jobs scoring at least this.
+min_score_for_coaching: 40
+coach_max_priorities: 4
+# Cap on web searches the coach may run per week (roughly $0.01 each).
+coach_web_search_max_uses: 10
+
+# --- Consigliere ---
+# How many top-scored jobs the consigliere reviews in detail.
+consigliere_job_limit: 15
+max_apply_per_week: 5

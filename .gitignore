@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+# Resume, generated reports, and run state are personal - keep them out of git.
+data/*
+!data/resume.md.example
+logs/

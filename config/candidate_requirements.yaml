@@ -1,0 +1,16 @@
+# Hard requirements the skills_analysis agent factors into match_score and its
+# summary for every job - these aren't reliably filterable from job-board APIs
+# (salary and sponsorship aren't structured fields), so the LLM judges them from
+# the actual posting text instead of a keyword filter.
+primary_focus: >
+  FP&A (Financial Planning & Analysis) - budgeting, forecasting, financial
+  modeling, business partnering, variance analysis.
+secondary_focus: >
+  AI tutoring / AI training work (subject-matter expert, AI trainer, tutoring
+  contract roles) - acceptable if a strong FP&A match isn't available.
+salary_floor_usd: 140000
+remote_required: true
+relocation_ok: true
+relocation_regions:
+  - Europe
+sponsorship_required_if_relocating: true
